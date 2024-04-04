@@ -1,0 +1,65 @@
+GET  http://localhost:3000/api/employees
+Content-Type: application/json
+
+{
+  "name": "SHARATH",
+  "email": "sharath@gmail.com",
+  "role": "INTERN"
+}
+
+
+
+# GET  http://localhost:3000/employees
+# Content-Type: application/json
+
+# {
+#   "name": "SHARATH",
+#   "email": "sharath@gmail.com",
+#   "role": "INTERN"
+# }
+
+# PATCH   http://localhost:3000/users/10
+# Content-Type: application/json
+
+# {
+#     "name": "SHARATH",
+#   "email": "jane.smith@example.com",
+#   "role": "admin"
+# }
+
+# POST http://localhost:3000/users
+# Content-Type: application/json
+
+# {
+#     "name": "sharath",
+#     "email": "test@gmail.com",
+#     "role": "user"
+# }
+
+# PATCH  http://localhost:3000/users/101
+# Content-Type: application/json
+
+# {
+#     "name": "sharath",
+#     "email": "test@gmail.com",
+#     "role": "admin"
+# }
+
+
+# DELETE   http://localhost:3000/users/123
+# Content-Type: application/json
+
+# {
+#     "name": "sharath",
+#     "email": "test@gmail.com",
+#     "role": "admin"
+# }
+
+# GET http://localhost:3000/users?role=admin
+# Content-Type: application/json
+
+# {
+#     "name": "sharath",
+#     "email": "test@gmail.com",
+#     "role": "admin"
+# }
